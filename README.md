@@ -421,7 +421,28 @@ Although this project demonstrates the application of Variational Quantum Regres
 
 This project uses open-source Python libraries for numerical calculations, interpolation, regression, quantum circuit construction, optimization, and visualization. Qiskit provides the quantum machine learning framework, while SciPy and scikit-learn support the interpolation and classical comparison methods.
 
-**Team contributions:** Add the names of the team members and their specific contributions here.
+**Team contributions:** Member 1 - M.Balaji Rao – Data Collection and Engine Performance Calculations
+Member 2 - chukkal kiran – Classical Regression and Interpolation
+Member 3 – Mendu vinay - Quantum Machine Learning Implementation
+Member 4 –  s. Manikanta - Model Evaluation, Documentation, and Presentation
+
 
 **AI assistance:** If applicable, acknowledge the use of AI tools for coding assistance, documentation, or debugging in accordance with the hackathon's rules..]`
-* `[Acknowledge team contributions and tools used.]`
+chatGpt
+* `[### Acknowledgment of Team Contributions and Tools Used
+
+We sincerely acknowledge the contributions of all four team members in completing this project, **“Engine Performance Prediction Using Cubic Spline Interpolation and Quantum Machine Learning: A Comparative Study of Variational Quantum Regression and Classical Quadratic Regression.”** The team collaborated on experimental data preparation, engine performance calculations, classical regression, quantum circuit implementation, model evaluation, visualization, documentation, and presentation.
+
+The following tools and technologies were used during the project:
+
+- **Python:** Programming and implementation.
+- **Qiskit:** Quantum circuit construction and quantum machine learning.
+- **Qiskit Machine Learning:** Implementation of Variational Quantum Regression (VQR).
+- **NumPy and Pandas:** Numerical computations and data processing.
+- **SciPy:** Cubic spline interpolation and optimization support.
+- **Scikit-learn:** Classical quadratic regression and model evaluation.
+- **Matplotlib:** Data visualization and comparison graphs.
+- **Jupyter Notebook / Google Colab:** Code execution and experimentation.
+- **ChatGPT:** Assistance with coding guidance, debugging suggestions, explanations of quantum machine learning concepts, and project documentation.
+
+We thank the developers and open-source communities behind these tools for making them available for educational and research purposes. All team members share responsibility for reviewing the implementation, validating the experimental results, and ensuring that the final submission follows the hackathon guidelines..]`
