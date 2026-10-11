@@ -18,9 +18,9 @@
 
 ## Project Metadata
 
-* **Project Title:** `[Your Project Title]`
-* **Team Name:** `[Your Team Name]`
-* **Chosen Track:** `[Track 1: Quantum Games & Interactive Puzzles OR Track 2: Open-Domain Optimization & Real-World Solvers]`
+* **Project Title:** `[“Quantum Kernel Machine Learning for Data-Driven Analysis of Petrol Internal Combustion Engine Performance Characteristics”]`
+* **Team Name:** `[“Quantum Kernel Machine Learning for Data-Driven Analysis of Petrol Internal Combustion Engine Performance Characteristics”]`
+* **Chosen Track:** `[ Track 2: Open-Domain Optimization & Real-World Solvers]`
 * **Video Presentation Link:** `[Insert YouTube Unlisted / Google Drive / Loom URL here]`
   *(⚠️ Crucial: Ensure link access is set to "Anyone with the link can view" on Google Drive or "Unlisted / Public" on YouTube. Locked/inaccessible links cannot be scored!)*
 * **Live Demo Timestamp in Video:** `[MM:SS]` *(e.g., "Demo starts at 03:45")*
