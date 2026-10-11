@@ -18,7 +18,7 @@
 
 ## Project Metadata
 
-* **Project Title:** `[“Quantum Kernel Machine Learning for Data-Driven Analysis of Petrol Internal Combustion Engine Performance Characteristics”]`
+* **Project Title:** `[“Engine Performance Prediction Using Cubic Spline Interpolation and Quantum Machine Learning: A Comparative Study of Variational Quantum Regression and Classical Quadratic Regression”]`
 * **Team Name:** `[“Quantum Kernel Machine Learning for Data-Driven Analysis of Petrol Internal Combustion Engine Performance Characteristics”]`
 * **Chosen Track:** `[ Track 2: Open-Domain Optimization & Real-World Solvers]`
 * **Video Presentation Link:** `[Insert YouTube Unlisted / Google Drive / Loom URL here]`
@@ -38,26 +38,36 @@
 ## 1. Project Overview & Motivation
 
 * **Summary (3–4 sentences):**  
-  `[Provide a concise executive summary of what you built. What is the game or optimization dilemma?]`
+  `[This project develops an engine performance prediction model using cubic spline interpolation, classical quadratic regression, and Variational Quantum Regression (VQR) implemented with Qiskit. It analyzes five performance parameters: fuel consumption, specific fuel consumption, brake thermal efficiency, indicated thermal efficiency, and mechanical efficiency. The main optimization dilemma is to achieve accurate predictions while minimizing model error and balancing computational complexity between classical and quantum approaches. The models are compared using \(R^2\), Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE) to evaluate their predictive performance.]`
 
 * **Why this problem / game?**  
-  `[Explain why you chose this specific topic. Why is it engaging, practically relevant, or pedagogically meaningful?]`
+  `[This topic was chosen to explore how advanced computational techniques can improve engine performance analysis and prediction. Accurate prediction of fuel consumption, specific fuel consumption, and thermal efficiency is important for evaluating engine performance and identifying opportunities to improve fuel economy. The project is engaging because it combines mechanical engineering, data interpolation, classical machine learning, and quantum computing using Qiskit. Comparing Variational Quantum Regression with classical quadratic regression provides valuable practical learning about model accuracy, optimization, and the potential applications and limitations of quantum machine learning in engineering]`
 
 ---
 
 ## 2. Quantum Architecture & Mechanics
 
 * **Core Quantum Principles Used:**  
-  `[Specify the exact quantum principles at play: e.g., Superposition (H gate), Entanglement (Bell states / CNOT), Measurement Collapse, Interference, or QAOA Cost Hamiltonian.]`
+  `[
+
+1. **Superposition:** Qubits represent combinations of quantum states through parameterized rotation gates in the variational circuit.
+2. **Entanglement:** The ZZFeatureMap uses controlled interactions between qubits to encode relationships between input features.
+3. **Quantum Interference:** Quantum gate operations combine probability amplitudes, influencing the circuit's output and its ability to represent nonlinear relationships.
+4. **Measurement:** The quantum circuit's output is evaluated through a quantum observable or measurement process to obtain values used for prediction.
+5. **Variational Optimization:** Trainable quantum gates are optimized using the classical COBYLA optimizer to minimize the prediction error between actual and predicted engine performance values.
+
+These principles are applied in Variational Quantum Regression (VQR) using Qiskit to model and compare five engine performance curves against classical quadratic regression. The project does not use QAOA because it addresses a regression problem rather than a combinatorial optimization problem.]`
 
 * **How the Quantum Circuit is Integrated:**  
-  `[Explain how quantum states map to your game board, strategy, or optimization problem. How does your Qiskit circuit interact with player input or the optimization loop?]`
+  `[**How the Quantum Circuit is Integrated:**
+
+The Qiskit quantum circuit is integrated into the engine performance prediction system using Variational Quantum Regression (VQR). The input variable, brake power, is normalized and encoded into quantum states using a two-qubit ZZFeatureMap, while nonlinear features help represent relationships between brake power and engine performance parameters. A trainable RealAmplitudes ansatz processes the encoded inputs, and a classical COBYLA optimizer adjusts the quantum circuit parameters to minimize the prediction error. The resulting VQR predictions for fuel consumption, specific fuel consumption, brake thermal efficiency, indicated thermal efficiency, and mechanical efficiency are compared with classical quadratic regression using R², MAE, and RMSE metrics.]`
 
 * **Circuit Details:**  
-  * **Number of Qubits:** `[e.g., 4 qubits]`
-  * **Key Gates Used:** `[e.g., H, CX, RZ, Measurement]`
-  * **Primitives Used:** `[e.g., StatevectorSampler, StatevectorEstimator, or Qiskit Aer simulator]`
-  * **Other Technologies Used:** `[e.g., Streamlit for UI, NetworkX for graph generation, Pygame, etc. (Note: Qiskit must power the quantum logic)]`
+  * **Number of Qubits:** `[ 2 qubits]`
+  * **Key Gates Used:** `[ZZFeatureMap entangling gates, parameterized rotation gates (RY), and controlled quantum interactions. The RealAmplitudes ansatz provides trainable rotation and entanglement operations]`
+  * **Primitives Used:** `[StatevectorEstimator for evaluating quantum observables during model training and prediction.]`
+  * **Other Technologies Used:** `[Python, Qiskit, Qiskit Machine Learning, NumPy, Pandas, SciPy (cubic spline and PCHIP interpolation), Scikit-learn (classical regression and evaluation metrics), and Matplotlib (performance curves and comparison graphs)]`
 
 ```python
 # Optional: Paste a representative snippet of your core Qiskit circuit code here
