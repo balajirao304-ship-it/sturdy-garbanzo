@@ -28,10 +28,10 @@
 ### Team Members (Max 4 members)
 | Name | Email | GitHub Username |
 | :--- | :--- | :--- |
-| `[Member 1 Name]` | `[Email]` | `[@username]` |
-| `[Member 2 Name]` | `[Email]` | `[@username]` |
-| `[Member 3 Name]` | `[Email]` | `[@username]` |
-| `[Member 4 Name]` | `[Email]` | `[@username]` |
+| `[Mahendrakar Balaji rao]` | `[balajirao304@gmail.com]` | `[@balajirao304-ship-it]` |
+| `[Chukkala kiran]` | `[ckiranme@gmail.com]` | `[@chukkala-kiran]` |
+| `[Mendu vinay]` | `[vinaymendu18@gmail.com]` | `[@Menduvinay2003]` |
+| `[S Manikanta]` | `[manikantasuper63@gmail.com]` | `[@manikantasuper63-hash]` |
 
 ---
 
